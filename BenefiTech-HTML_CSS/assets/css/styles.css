@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Fira+Code&display=swap');
 
 
-
 body{
     background-color: rgb(5, 5, 5);
     color: #FFFFFF;
@@ -15,7 +14,11 @@ h1{
 }
 
 h2{
-    font-size: 28px;
+    font-size: 38px;
+}
+
+h3{
+    font-size: 29px;
 }
 
 img{
@@ -33,18 +36,19 @@ main{
     text-align: center;
 }
 
-#link-to-next-page{
-    text-decoration: underline;
-    color: #38fd9ac6;
-    font-size: 20px;
-    font-weight: bold;
-    display: inline-block;
+#links-list{
+    font-size: 17px;
+    font-weight: normal;
+    color: #38fd9ac3;
+    padding: 1.1px;
 }
 
-#link-decoration{
-    font-size: 18px;
+.internal-links{
+    display: inline-block;
+    color: #38fd9ac6;
+    font-weight: bold;
     text-decoration: underline;
-    color: #38fd9ad2;
+    font-size: 19px;
 }
 
 .logos{
