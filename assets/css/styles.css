@@ -55,6 +55,11 @@ main{
     font-size: 14px;
 }
 
+.links:hover{
+    text-decoration: underline;
+    color: #0d5acd;
+}
+
 .text{
     font-family: 'Overpass Mono';
     text-align: left;
