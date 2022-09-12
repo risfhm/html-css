@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body{
+    background-image: url("../img/macos-mojave-evening-mode-stock-l9-1366x768.jpg");
+    height: 100%;
+}
+
+.photos{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.437);
+    margin: 15px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.photos:hover{
+    width: 160px;
+    height: 160px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.437);
+}
+
+.main-box{
+    background-color: rgb(225, 221, 221);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.628);
+    margin: 50px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-box > div{
+    margin: auto;
+}
+
+#title{
+    font-family: 'Baloo 2', cursive;
+    color: #316781;
+    margin-top: 10px;
+}
+
+.text{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.bio-info{
+    background-image: linear-gradient(to right, #87CEEB, #ADD8E6);
+    text-align: left;
+    border-radius: 15px;
+    display: inline-block;
+    width: 800px;
+}
+
+div.bio-info > ul{
+    margin-top: 50px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 20px;
+}
+
+.video-youtube{
+    width: 600px;
+    height: 315px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.video-youtube:hover{
+    box-shadow: 1px 1px 20px #4163702d;
+}
+
+.footer {
+    text-align: center;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #090909;
+}
+
+.footer-images{
+    display: inline-block;
+    margin: 5px;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.footer-images:hover{
+    width: 30px;
+    height: 30px;
+}
